@@ -1,0 +1,9 @@
+@import '../../public/fonts/icomoon/style.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}

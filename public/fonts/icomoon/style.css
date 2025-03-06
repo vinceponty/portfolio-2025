@@ -1,0 +1,111 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?y5lwhp');
+  src:  url('fonts/icomoon.eot?y5lwhp#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?y5lwhp') format('truetype'),
+    url('fonts/icomoon.woff?y5lwhp') format('woff'),
+    url('fonts/icomoon.svg?y5lwhp#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-quote-right:before {
+  content: "\e91a";
+}
+.icon-quote-left:before {
+  content: "\e91b";
+}
+.icon-arrow-top-right:before {
+  content: "\e913";
+}
+.icon-bitbucket:before {
+  content: "\e914";
+}
+.icon-email:before {
+  content: "\e902";
+}
+.icon-pin:before {
+  content: "\e903";
+}
+.icon-vscode:before {
+  content: "\e904";
+}
+.icon-photoshop:before {
+  content: "\e905";
+}
+.icon-css:before {
+  content: "\e906";
+}
+.icon-html:before {
+  content: "\e907";
+}
+.icon-magento:before {
+  content: "\e908";
+}
+.icon-drupal:before {
+  content: "\e909";
+}
+.icon-symfony:before {
+  content: "\e90a";
+}
+.icon-javascript:before {
+  content: "\e90b";
+}
+.icon-jquery:before {
+  content: "\e90c";
+}
+.icon-sass:before {
+  content: "\e90d";
+}
+.icon-angular:before {
+  content: "\e90e";
+}
+.icon-nextjs:before {
+  content: "\e90f";
+}
+.icon-tailwindcss:before {
+  content: "\e910";
+}
+.icon-react:before {
+  content: "\e911";
+}
+.icon-typescript:before {
+  content: "\e912";
+}
+.icon-instagram:before {
+  content: "\e900";
+}
+.icon-linkedin:before {
+  content: "\e901";
+}
+.icon-curriculum-vitae:before {
+  content: "\e915";
+}
+.icon-tennis:before {
+  content: "\e916";
+}
+.icon-singer:before {
+  content: "\e917";
+}
+.icon-swimming:before {
+  content: "\e918";
+}
+.icon-running:before {
+  content: "\e919";
+}

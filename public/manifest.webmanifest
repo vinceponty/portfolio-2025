@@ -1,0 +1,21 @@
+{
+    "name": "Vincent Ponty - Développeur web front-end",
+    "short_name": "Vincent Ponty",
+    "description": "Portfolio de Vincent Ponty, front end developer - Développement d'applications web modernes et performantes",
+    "start_url": "/",
+    "icons": [
+        { "src": "/apple-touch-icon-precomposed-57x57.png", "sizes": "57x57", "type": "image/png" },
+        { "src": "/apple-touch-icon-precomposed-72x72.png", "sizes": "72x72", "type": "image/png" },
+        { "src": "/apple-touch-icon-precomposed-76x76.png", "sizes": "76x76", "type": "image/png" },
+        { "src": "/apple-touch-icon-precomposed-114x114.png", "sizes": "114x114", "type": "image/png" },
+        { "src": "/apple-touch-icon-precomposed-120x120.png", "sizes": "120x120", "type": "image/png" },
+        { "src": "/apple-touch-icon-precomposed-144x144.png", "sizes": "144x144", "type": "image/png" },
+        { "src": "/apple-touch-icon-precomposed-152x152.png", "sizes": "152x152", "type": "image/png" },
+        { "src": "/apple-touch-icon-precomposed-180x180.png", "sizes": "180x180", "type": "image/png" },
+        { "src": "/android-chrome-192x192.png", "sizes": "192x192", "type": "image/png" },
+        { "src": "/android-chrome-512x512.png", "sizes": "512x512", "type": "image/png" }
+    ],
+    "theme_color": "#E7E5E4",
+    "background_color": "#E7E5E4",
+    "display": "standalone"
+  }
