@@ -2,35 +2,47 @@ import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
-const helveticaNeue = localFont({
+const helveticaNeueFont = localFont({
     src: [
         {
-            path: "../../public/fonts/HelveticaNeue/HelveticaNeueRegular.woff2",
+            path: "../../public/fonts/HelveticaNeue/HelveticaNeue-Regular.woff2",
             weight: "400",
             style: "normal"
         },
         {
-            path: "../../public/fonts/HelveticaNeue/HelveticaNeueItalic.woff2",
+            path: "../../public/fonts/HelveticaNeue/HelveticaNeue-Italic.woff2",
             weight: "400",
             style: "italic"
         },
         {
-            path: "../../public/fonts/HelveticaNeue/HelveticaNeueBold.woff2",
+            path: "../../public/fonts/HelveticaNeue/HelveticaNeue-Bold.woff2",
             weight: "700",
             style: "normal"
         },
         {
-            path: "../../public/fonts/HelveticaNeue/HelveticaNeueLight.woff2",
+            path: "../../public/fonts/HelveticaNeue/HelveticaNeue-Light.woff2",
             weight: "300",
             style: "normal"
         },
         {
-            path: "../../public/fonts/HelveticaNeue/HelveticaNeueMediumItalic.woff2",
+            path: "../../public/fonts/HelveticaNeue/HelveticaNeue-MediumItalic.woff2",
             weight: "500",
             style: "italic"
         }
     ],
     variable: "--font-helvetica-neue"
+});
+
+const sanchezFont = localFont({
+    src: [
+        {
+            path: "../../public/fonts/Sanchez/Sanchez-Regular.woff2",
+            weight: "400",
+            style: "normal"
+        },
+        { path: "../../public/fonts/Sanchez/Sanchez-Italic.woff2", weight: "400", style: "italic" }
+    ],
+    variable: "--font-sanchez"
 });
 
 export const metadata: Metadata = {
@@ -170,20 +182,14 @@ export const metadata: Metadata = {
     manifest: "/manifest.webmanifest"
 };
 
-export const viewport: Viewport = {
-    themeColor: "#E7E5E4"
-};
+export const viewport: Viewport = { themeColor: "#E7E5E4" };
 
-export default function RootLayout({
-    children
-}: Readonly<{
-    children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
         <html lang="fr">
             <body
-                className={`${helveticaNeue.variable} font-HelveticaNeue text-stone-950 antialiased`}>
-                <div className="bg-topography fixed bottom-0 left-0 right-0 top-0 -z-1 bg-stone-200 after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-mainGradient" />
+                className={`${helveticaNeueFont.variable} ${sanchezFont.variable} font-HelveticaNeue text-stone-950 antialiased`}>
+                <div className="fixed bottom-0 left-0 right-0 top-0 -z-1 bg-stone-200 bg-topography after:absolute after:left-0 after:top-0 after:h-full after:w-full after:bg-mainGradient" />
                 {children}
             </body>
         </html>

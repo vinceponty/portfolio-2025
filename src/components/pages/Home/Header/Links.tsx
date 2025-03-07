@@ -19,7 +19,7 @@ function Links() {
                                     className="flex flex-row items-center border-b border-dotted border-stone-500">
                                     <Icon className="relative -top-px mr-3" name={link.icon} />
                                     <span className="flex-1 pr-3 text-sm">{`${link.label} `}</span>
-                                    <span className="font-Default text-xs italic text-stone-600 sm:text-sm">
+                                    <span className="font-Sanchez text-xs italic text-stone-600 sm:text-13">
                                         {link.data}
                                     </span>
                                 </ExternalLink>

@@ -19,10 +19,11 @@ export default {
       },
       fontFamily: {
         HelveticaNeue: ['var(--font-helvetica-neue)'],
-        Default: 'Arial, Helvetica, sans-serif'
+        Sanchez: ['var(--font-sanchez)']
       },
       fontSize: {
         '10': '10px',
+        '11': '11px',
         '13': '13px',
         '15': '15px',
         '22': '22px'

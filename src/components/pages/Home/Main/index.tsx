@@ -5,7 +5,7 @@ import Icon from "@/components/base/Icon";
 const Main = () => {
     return (
         <main className="pb-14 lg:pt-[84px]">
-            <p className="text-15 relative mb-12 italic xl:mb-16">
+            <p className="relative mb-12 text-15 italic xl:mb-16">
                 <Icon name="quote-left absolute -top-5 -left-8 -z-1 text-stone-300 text-5xl" />
                 <span className="font-medium italic">Développeur front-end</span> passionné et
                 expérimenté, j'ai à cœur de créer des{" "}
@@ -22,7 +22,7 @@ const Main = () => {
                     <Icon name="quote-right absolute text-5xl -left-5 text-stone-300 -z-1 -top-1" />
                 </span>
             </p>
-            <ul className="relative flex flex-col space-y-8 after:absolute after:left-0 after:top-0 after:-z-1 after:h-full after:w-px after:border-l after:border-dotted after:border-stone-400/80 sm:space-y-12 sm:after:left-[139px] xl:space-y-16">
+            <ul className="relative flex flex-col space-y-8 after:absolute after:left-0 after:top-0 after:-z-1 after:h-full after:w-px after:border-l after:border-dotted after:border-stone-400/80 sm:space-y-12 sm:after:left-[136px] xl:space-y-16">
                 {experiences.map((experience) => (
                     <li key={experience.name}>
                         <Experience experience={experience} />

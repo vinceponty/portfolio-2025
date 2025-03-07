@@ -11,9 +11,7 @@ import type {
     ExperienceJobType
 } from "@/lib/experiences/types";
 
-type ExperienceJobProps = {
-    job: ExperienceJobType;
-};
+type ExperienceJobProps = { job: ExperienceJobType };
 
 function ExperienceJob({ job }: ExperienceJobProps) {
     return (
@@ -21,12 +19,12 @@ function ExperienceJob({ job }: ExperienceJobProps) {
             <h4
                 className={clsx("mb-2", {
                     "flex flex-col sm:flex-row": job.dates,
-                    "sm:pl-[162px]": !job.dates
+                    "sm:pl-[159px]": !job.dates
                 })}>
                 {job.dates ? <ExperienceDates dates={job.dates} isSmall={true} /> : null}
-                <span className="pl-4 italic sm:pl-0">{job.name}</span>
+                <span className="font-Sanchez pl-4 italic sm:pl-0">{job.name}</span>
             </h4>
-            <div className="pl-4 sm:pl-[162px]">
+            <div className="pl-4 sm:pl-[159px]">
                 <p className="text-sm font-light">{job.description}</p>
                 <ul className="mt-4 flex flex-row flex-wrap gap-3">
                     {job.skills.primary.map((skill) => (
@@ -40,21 +38,17 @@ function ExperienceJob({ job }: ExperienceJobProps) {
     );
 }
 
-type ExperienceDatesProps = {
-    dates: ExperienceDatesType;
-    isSmall?: boolean;
-    className?: string;
-};
+type ExperienceDatesProps = { dates: ExperienceDatesType; isSmall?: boolean; className?: string };
 
 function ExperienceDates({ dates, isSmall, className }: ExperienceDatesProps) {
     return (
         <span
             className={clsx(
-                "relative min-w-[162px] pl-4 before:absolute before:left-0 before:top-1/2 before:h-[11px] before:w-px before:-translate-y-1/2 after:absolute after:-left-[5px] after:top-1/2 after:h-px after:w-[11px] after:-translate-y-1/2 sm:pl-0 sm:pr-12 sm:text-right sm:before:left-[139px] sm:after:left-[134px]",
+                "font-Sanchez relative min-w-[159px] pl-4 before:absolute before:left-0 before:top-1/2 before:h-[11px] before:w-px before:-translate-y-1/2 after:absolute after:-left-[5px] after:top-1/2 after:h-px after:w-[11px] after:-translate-y-1/2 sm:pl-0 sm:pr-12 sm:text-right sm:before:left-[136px] sm:after:left-[131px]",
                 {
-                    "pt-0.5 text-sm text-stone-700 before:bg-stone-700 after:bg-stone-700":
+                    "pt-0.5 text-13 text-stone-700 before:bg-stone-700 after:bg-stone-700":
                         !isSmall,
-                    "pt-1 text-xs text-stone-500 before:bg-stone-400 after:bg-stone-400": isSmall
+                    "text-11 pt-1 text-stone-500 before:bg-stone-400 after:bg-stone-400": isSmall
                 },
                 className
             )}>
@@ -63,9 +57,7 @@ function ExperienceDates({ dates, isSmall, className }: ExperienceDatesProps) {
     );
 }
 
-type ExperienceProps = {
-    experience: ExperienceType;
-};
+type ExperienceProps = { experience: ExperienceType };
 
 function Experience({ experience }: ExperienceProps) {
     return (
