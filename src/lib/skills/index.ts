@@ -66,6 +66,11 @@ const skills = {
         color: 'red-500',
         icon: 'angular'
     },
+    ionic: {
+        label: 'Ionic',
+        color: 'blue-600',
+        icon: 'ionic'
+    },
     javascript: {
         label: 'JavaScript',
         color: 'yellow-400',

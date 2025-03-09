@@ -9,7 +9,7 @@ export const linkCategories:LinksType[] = [
         links: [
             {
                 label: 'Limoges',
-                data: 'N 45° 50\' 7.527 E 1° 15\' 52.144\'\'',
+                data: 'N 45<span class="font-HelveticaNeue">°</span> 50\' 7.527 E 1<span class="font-HelveticaNeue">°</span> 15\' 52.144\'\'',
                 url: 'https://www.google.fr/maps/place/Limoges',
                 icon: 'pin'
             },
@@ -18,13 +18,13 @@ export const linkCategories:LinksType[] = [
                 data: 'vincent.ponty@gmail.com',
                 url:'mailto:vincent.ponty@gmail.com',
                 icon: 'email'
-            }/*,
+            },
             {
                 label: 'Curriculum vitae',
                 data: 'ponty_vincent_cv.pdf',
                 url:'/ponty_vincent_cv.pdf',
                 icon: 'curriculum-vitae'
-            }*/
+            }
         ]
     },
     {
@@ -44,6 +44,12 @@ export const linkCategories:LinksType[] = [
                 data: '@vince.pnt', 
                 url: 'https://www.instagram.com/vince.pnt',
                 icon: 'instagram'
+            },
+            {
+                label: 'Github',
+                data: 'vinceponty',
+                url: 'https://github.com/vinceponty',
+                icon: 'github'
             }
         ]
     },

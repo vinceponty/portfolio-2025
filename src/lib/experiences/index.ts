@@ -30,7 +30,7 @@ const experiences: ExperienceType[] = [
                 name: 'Lead front end developer',
                 description: 'Optimisation et évolution d\'une web app interne d\'un grand groupe bancaire permettant l\'analyse de performance de portefeuilles financiers de clients "grands comptes" et de simuler l\'impact d\'actions d\'investissement. Développement d\'une interface de contrôle et pilotage pour un système embarqué au sein d\'un robot permettant l\'automatisation de la manutention de palettes. Maintenance de diverses applications web ou hybrides.',
                 skills: {
-                    primary: ['angular', 'sass']
+                    primary: ['angular', 'sass', 'ionic']
                 }
             }
         ]
@@ -49,7 +49,7 @@ const experiences: ExperienceType[] = [
                     end: '11.2018'
                 },
                 name: 'Front end Developer',
-                description: 'Développement d\'une web app destinée àux employés d\'un grand groupe bancaire permettant d\'améliorer la soumission, l\'approbation et le traitement de feedbacks concernant le "bien-être au travail". Intégration de thèmes pour CMS ou de templates pour la conception de site web vitrines ou expérimentaux pour de grandes marques de la mode, du sport, de la cosmétique ou de la télécommunication.',
+                description: 'Développement d\'une web app destinée àux employés d\'un grand groupe bancaire permettant d\'améliorer la soumission, l\'approbation et le traitement de feedbacks concernant le "bien-être au travail". Intégration de thèmes pour CMS ou de templates pour la conception de site web vitrines ou expérientiels pour de grandes marques de la mode, du sport, de la cosmétique ou de la télécommunication.',
                 skills: {
                     primary: ['angularjs', 'jquery', 'javascript']
                 }
@@ -118,7 +118,7 @@ const experiences: ExperienceType[] = [
         jobs: [
             {
                 name: 'Stagiaire en webdesign et intégration',
-                description: 'Conception de maquettes de sites vitrines pour des artisans ou petits commerces. Découpe des maquettes. Intégration statique en html et css agrémentée d\'animations en javascript',
+                description: 'Conception de maquettes de sites vitrines pour des artisans ou petits commerces. Découpe des maquettes. Intégration statique en html et css agrémentée d\'animations en javascript.',
                 skills: {
                     primary: ['html', 'css', 'photoshop']
                 }
