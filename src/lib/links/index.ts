@@ -35,8 +35,8 @@ export const linkCategories:LinksType[] = [
         links: [
             {
                 label: 'Linkedin',
-                data: 'vincent-ponty-80b62742',
-                url: 'https://fr.linkedin.com/in/vincent-ponty-80b62742',
+                data: 'vincent-ponty',
+                url: 'https://fr.linkedin.com/in/vincent-ponty',
                 icon: 'linkedin'
             },
             {
