@@ -18,7 +18,7 @@ const experiences: ExperienceType[] = [
                     'Participation à la code review et suivi des pipelines CI/CD sur GitLab.',
                     'Rédaction des tests automatisés avec Jest et React Testing Library.',
                     'Librairies majeures utilisées: SWR, Jotaï, Recharts.',
-                    'Outils majeurs utilisés: Figma, Storybook, Jira, Datadog.',
+                    'Outils majeurs utilisés: Figma, Storybook, Jira, Datadog, Sonar.',
                     'Environnement de travail basé sur la communication non violente, l\'intelligence collective et la bienveillance.'
                 ],
                 skills: {
@@ -63,7 +63,7 @@ const experiences: ExperienceType[] = [
                 },
                 name: 'Front end Developer',
                 missions: [
-                    'Développement d\'une web app destinée àux employés d\'un grand groupe bancaire permettant d\'améliorer la soumission, l\'approbation et le traitement de feedbacks concernant le "bien-être au travail".',
+                    'Développement d\'une web app destinée aux employés d\'un grand groupe bancaire permettant d\'améliorer la soumission, l\'approbation et le traitement de feedbacks concernant le "bien-être au travail".',
                     'Intégration de thèmes pour CMS ou de templates pour la conception de site web vitrines ou expérientiels pour de grandes marques de la mode, du sport, de la cosmétique ou de la télécommunication.'
                 ],
                 skills: {
