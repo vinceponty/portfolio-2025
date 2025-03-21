@@ -22,14 +22,22 @@ function ExperienceJob({ job }: ExperienceJobProps) {
                     "sm:pl-[159px]": !job.dates
                 })}>
                 {job.dates ? <ExperienceDates dates={job.dates} isSmall={true} /> : null}
-                <span className="font-Sanchez pl-4 italic sm:pl-0">{job.name}</span>
+                <span className="pl-4 font-Sanchez italic sm:pl-0">{job.name}</span>
             </h4>
             <div className="pl-4 sm:pl-[159px]">
-                <p className="text-sm font-light">{job.description}</p>
                 <ul className="mt-4 flex flex-row flex-wrap gap-3">
                     {job.skills.primary.map((skill) => (
                         <li key={skill}>
                             <Skill skill={skills[skill]} />
+                        </li>
+                    ))}
+                </ul>
+                <ul className="mt-4 flex flex-col gap-y-1 text-sm font-light">
+                    {job.missions.map((mission, index) => (
+                        <li
+                            key={index}
+                            className="relative pl-4 after:absolute after:left-0 after:top-3 after:h-px after:w-2 after:bg-stone-400">
+                            {mission}
                         </li>
                     ))}
                 </ul>
@@ -44,11 +52,11 @@ function ExperienceDates({ dates, isSmall, className }: ExperienceDatesProps) {
     return (
         <span
             className={clsx(
-                "font-Sanchez relative min-w-[159px] pl-4 before:absolute before:left-0 before:top-1/2 before:h-[11px] before:w-px before:-translate-y-1/2 after:absolute after:-left-[5px] after:top-1/2 after:h-px after:w-[11px] after:-translate-y-1/2 sm:pl-0 sm:pr-12 sm:text-right sm:before:left-[136px] sm:after:left-[131px]",
+                "relative min-w-[159px] pl-4 font-Sanchez before:absolute before:left-0 before:top-1/2 before:h-[11px] before:w-px before:-translate-y-1/2 after:absolute after:-left-[5px] after:top-1/2 after:h-px after:w-[11px] after:-translate-y-1/2 sm:pl-0 sm:pr-12 sm:text-right sm:before:left-[136px] sm:after:left-[131px]",
                 {
                     "pt-0.5 text-13 text-stone-700 before:bg-stone-700 after:bg-stone-700":
                         !isSmall,
-                    "text-11 pt-1 text-stone-500 before:bg-stone-400 after:bg-stone-400": isSmall
+                    "pt-1 text-11 text-stone-500 before:bg-stone-400 after:bg-stone-400": isSmall
                 },
                 className
             )}>

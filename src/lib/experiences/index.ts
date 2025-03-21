@@ -11,9 +11,18 @@ const experiences: ExperienceType[] = [
         jobs: [
             {
                 name: 'Senior front end developer',
-                description: 'Au sein d\'une équipe technique composée de développeurs back end et front end et en étroite collaboration avec une équipe de designers et de product managers, participation en méthode agile à la refonte, la maintenance et l\'évolution d\'une plateforme à destination des social media managers. Cet outil en ligne soumis à authentification et abonnement permet l\'agrégation, la gestion et l\'analyse de performance de réseaux sociaux ainsi que la programmation de publications et la génération de statistiques et rapports personnalisables.',
+                missions: [
+                    'Contribution au sein d\'une équipe technique et en méthode agile à la refonte, la maintenance et l\'évolution d\'un Saas à destination des social media managers.',
+                    'Cette plateforme soumise à authentification et abonnement permet l\'agrégation, la gestion et l\'analyse de performance de réseaux sociaux ainsi que la programmation de publications et la génération de statistiques et rapports PDF personnalisables.',
+                    'Définition des besoins, fonctionnalités et solutions techniques pragmatiques en étroite collaboration avec une équipe de designers et product managers.',
+                    'Participation à la code review et suivi des pipelines CI/CD sur GitLab.',
+                    'Rédaction des tests automatisés avec Jest et React Testing Library.',
+                    'Librairies majeures utilisées: SWR, Jotaï, Recharts.',
+                    'Outils majeurs utilisés: Figma, Storybook, Jira, Datadog.',
+                    'Environnement de travail basé sur la communication non violente, l\'intelligence collective et la bienveillance.'
+                ],
                 skills: {
-                    primary: ['react', 'tailwindcss', 'typescript', 'nextjs']
+                    primary: ['react', 'typescript', 'nextjs', 'tailwindcss']
                 }
             }
         ]
@@ -28,7 +37,11 @@ const experiences: ExperienceType[] = [
         jobs: [
             {
                 name: 'Lead front end developer',
-                description: 'Optimisation et évolution d\'une web app interne d\'un grand groupe bancaire permettant l\'analyse de performance de portefeuilles financiers de clients "grands comptes" et de simuler l\'impact d\'actions d\'investissement. Développement d\'une interface de contrôle et pilotage pour un système embarqué au sein d\'un robot permettant l\'automatisation de la manutention de palettes. Maintenance de diverses applications web ou hybrides.',
+                missions: [
+                    'Optimisation et évolution d\'une web app interne d\'un grand groupe bancaire permettant l\'analyse de performance de portefeuilles financiers de clients "grands comptes" et de simuler l\'impact d\'actions d\'investissement.',
+                    'Développement d\'une interface de contrôle et pilotage pour un système embarqué au sein d\'un robot permettant l\'automatisation de la manutention de palettes.',
+                    'Maintenance de diverses applications web ou hybrides.'
+                ],
                 skills: {
                     primary: ['angular', 'sass', 'ionic']
                 }
@@ -49,7 +62,10 @@ const experiences: ExperienceType[] = [
                     end: '11.2018'
                 },
                 name: 'Front end Developer',
-                description: 'Développement d\'une web app destinée àux employés d\'un grand groupe bancaire permettant d\'améliorer la soumission, l\'approbation et le traitement de feedbacks concernant le "bien-être au travail". Intégration de thèmes pour CMS ou de templates pour la conception de site web vitrines ou expérientiels pour de grandes marques de la mode, du sport, de la cosmétique ou de la télécommunication.',
+                missions: [
+                    'Développement d\'une web app destinée àux employés d\'un grand groupe bancaire permettant d\'améliorer la soumission, l\'approbation et le traitement de feedbacks concernant le "bien-être au travail".',
+                    'Intégration de thèmes pour CMS ou de templates pour la conception de site web vitrines ou expérientiels pour de grandes marques de la mode, du sport, de la cosmétique ou de la télécommunication.'
+                ],
                 skills: {
                     primary: ['angularjs', 'jquery', 'javascript']
                 }
@@ -60,7 +76,10 @@ const experiences: ExperienceType[] = [
                     end: '12.2015'
                 },
                 name: 'Back end developer',
-                description: 'Développement en équipe d\'une plateforme communautaire destinée à l\'entre-aide et aux conseils entre PME. Création de back-offices et de modules customs pour des sites web sur Drupal.',
+                missions: [
+                    'Développement en équipe d\'une plateforme communautaire destinée à l\'entre-aide et aux conseils entre PME.',
+                    'Création de back-offices et de modules customs pour des sites web sur Drupal.'
+                ],
                 skills: {
                     primary: ['symfony', 'drupal']
                 }
@@ -81,7 +100,10 @@ const experiences: ExperienceType[] = [
                     end: '05.2014'
                 },
                 name: 'Intégrateur et développeur web',
-                description: 'Intégration responsive et développement de divers sites vitrines, e-commerces ou applicatifs. Mises à jour et webmastering sur des sites existants.',
+                missions: [
+                    'Intégration responsive et développement de divers sites vitrines, e-commerces ou applicatifs.',
+                    'Mises à jour et webmastering sur des sites existants.'
+                ],
                 skills: {
                     primary: ['symfony', 'magento', 'jquery', 'javascript']
                 }
@@ -92,7 +114,11 @@ const experiences: ExperienceType[] = [
                     end: '07.2013'
                 },
                 name: 'Stagiaire en intégration et développement web',
-                description: 'Intégration et adaptation de thèmes pour la création de boutiques en ligne. Apprentissage de Magento et des bases de Symfony2. Approfondissement des règles de qualité web.',
+                missions: [
+                    'Intégration et adaptation de thèmes pour la création de boutiques en ligne.',
+                    'Apprentissage de Magento et des bases de Symfony2.',
+                    'Approfondissement des règles de qualité web.'
+                ],
                 skills: {
                     primary: ['magento', 'html', 'css']
                 }
@@ -118,7 +144,10 @@ const experiences: ExperienceType[] = [
         jobs: [
             {
                 name: 'Stagiaire en webdesign et intégration',
-                description: 'Conception de maquettes de sites vitrines pour des artisans ou petits commerces. Découpe des maquettes. Intégration statique en html et css agrémentée d\'animations en javascript.',
+                missions: [
+                    'Conception de maquettes de sites vitrines pour des artisans ou petits commerces.',
+                    'Découpe des maquettes et intégration statique en html et css agrémentée d\'animations en javascript.'
+                ],
                 skills: {
                     primary: ['html', 'css', 'photoshop']
                 }

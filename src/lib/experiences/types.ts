@@ -8,7 +8,7 @@ export type ExperienceDatesType = {
 export type ExperienceJobType = {
     dates?: ExperienceDatesType;
     name: string;
-    description: string;
+    missions: string[];
     skills: {
         primary: (keyof typeof skills)[];
         secondary?: string[];
