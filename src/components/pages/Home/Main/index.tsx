@@ -11,13 +11,14 @@ const Main = () => {
                 expérimenté, j'ai à cœur de créer des{" "}
                 <span className="font-medium italic">applications web</span> modernes, performantes
                 et interactives. Motivé par le partage de connaissances et l'apprentissage continu,
-                je souhaiterais rejoindre une équipe dynamique au sein de laquelle je pourrai mettre
-                à profit mon expertise technique, mon sens du relationnel et mon intérêt pour
-                l'UI/UX design. En m’appuyant principalement sur les librairies{" "}
-                <span className="font-medium italic">React</span> et{" "}
-                <span className="font-medium italic">Tailwindcss</span>, je saurai définir et
-                concevoir des interfaces et fonctionnalités innovantes et utiles, parfaitement
-                intégrées à un design system établi, tout en garantissant un rendu pixel-perfect.
+                je souhaiterais rejoindre une équipe dynamique au sein de laquelle je pourrais
+                mettre à profit mon expertise technique, mon sens du relationnel et mon intérêt pour
+                l'UI/UX design. En m’appuyant principalement sur la bibliothèque{" "}
+                <span className="font-medium italic">React</span> ainsi que sur les frameworks{" "}
+                <span className="font-medium italic">Tailwindcss</span> et{" "}
+                <span className="font-medium italic">Next.js</span>, je saurai définir et concevoir
+                des interfaces et fonctionnalités innovantes et utiles, parfaitement intégrées à un
+                design system établi, tout en garantissant un rendu pixel-perfect.
                 <span className="relative">
                     <Icon name="quote-right absolute text-5xl -left-5 text-stone-300 -z-1 -top-1" />
                 </span>

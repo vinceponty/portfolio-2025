@@ -13,11 +13,11 @@ const experiences: ExperienceType[] = [
                 name: 'Senior front end developer',
                 missions: [
                     'Contribution au sein d\'une équipe technique et en méthode agile à la refonte, la maintenance et l\'évolution d\'un Saas à destination des social media managers.',
-                    'Cette plateforme soumise à authentification et abonnement permet l\'agrégation, la gestion et l\'analyse de performance de réseaux sociaux ainsi que la programmation de publications et la génération de statistiques et rapports PDF personnalisables.',
+                    'Cette plateforme soumise à authentification et abonnement permet la gestion et l\'analyse de performance de réseaux sociaux ainsi que la programmation de publications et la génération de statistiques et rapports PDF personnalisables.',
                     'Définition des besoins, fonctionnalités et solutions techniques pragmatiques en étroite collaboration avec une équipe de designers et product managers.',
                     'Participation à la code review et suivi des pipelines CI/CD sur GitLab.',
                     'Rédaction des tests automatisés avec Jest et React Testing Library.',
-                    'Librairies majeures utilisées: SWR, Jotaï, Recharts.',
+                    'Bibliothèques utilisées: SWR, Jotaï, Zustand, Recharts.',
                     'Outils majeurs utilisés: Figma, Storybook, Jira, Datadog, Sonar.',
                     'Environnement de travail basé sur la communication non violente, l\'intelligence collective et la bienveillance.'
                 ],
@@ -38,7 +38,7 @@ const experiences: ExperienceType[] = [
             {
                 name: 'Lead front end developer',
                 missions: [
-                    'Optimisation et évolution d\'une web app interne d\'un grand groupe bancaire permettant l\'analyse de performance de portefeuilles financiers de clients "grands comptes" et de simuler l\'impact d\'actions d\'investissement.',
+                    'Optimisation et évolution d\'un Saas interne d\'un grand groupe bancaire permettant l\'analyse de performance de portefeuilles financiers de clients "grands comptes" et de simuler l\'impact d\'actions d\'investissement.',
                     'Développement d\'une interface de contrôle et pilotage pour un système embarqué au sein d\'un robot permettant l\'automatisation de la manutention de palettes.',
                     'Maintenance de diverses applications web ou hybrides.'
                 ],
