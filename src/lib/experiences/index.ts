@@ -18,7 +18,7 @@ const experiences: ExperienceType[] = [
                     'Participation à la code review et suivi des pipelines CI/CD sur GitLab.',
                     'Rédaction des tests automatisés avec Jest et React Testing Library.',
                     'Bibliothèques utilisées: SWR, Jotaï, Zustand, Recharts.',
-                    'Outils majeurs utilisés: Figma, Storybook, Jira, Datadog, Sonar.',
+                    'Outils majeurs utilisés: Figma, Storybook, Jira, Datadog, SonarQube.',
                     'Environnement de travail basé sur la communication non violente, l\'intelligence collective et la bienveillance.'
                 ],
                 skills: {
